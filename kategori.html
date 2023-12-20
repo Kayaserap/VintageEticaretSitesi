@@ -1,0 +1,1484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kategoriler</title>
+  <link rel="stylesheet" href="./main.css">
+
+
+  <link rel="stylesheet" href="./kategori-product.css">
+  <link rel="stylesheet" href="./ürün.css">
+  <link rel="stylesheet" href="./kategori.css">
+
+
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./glide.core.min.css">
+  <link rel="stylesheet" href="./glide.theme.min.css">
+
+
+</head>
+
+<body>
+
+
+
+  <header>
+    
+    <div class="header-row">
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="header-mobile">
+            <i class="bi bi-list" id="btn-menu"></i>
+          </div>
+          <div class="header-left">
+            <a href="#" class="logo">
+              <img src="./logo.jpg" alt=""></a>
+          </div>
+          <div class="header-center" id="sidebar">
+            <nav class="navigation">
+              <ul class="menu-list">
+             
+                <li class="menu-list-item">
+                  <a href="./index.html" class="menu-link active">
+                    ANASAYFA
+                  
+                  </a>
+      
+                </li>
+                <li class="menu-list-item megamenu-wrapper">
+                  <a href="./sepet.html" class="menu-link">
+                    ÜRÜNLER
+                    <i class="bi bi-chevron-down"></i>
+                  </a>
+                  <div class="menu-dropdown-wrapper">
+                    <div class="menu-dropdown-megamenu">
+                      <div class="megamenu-links">
+                        <div class="megamenu-products">
+                          <h3 class="megamenu-products-title">
+                          Ürünler
+                          </h3>
+                          <ul class="megamenu-menu-list">
+                            <li>
+                              <a href="./sepet.html">Tüm Ürünler</a>
+                            </li>
+                            <li>
+                              <a href="./kategori.html">Kategoriler</a>
+                            </li>
+                            <li>
+                              <a href="# ">Favoriler</a>
+                            </li>
+                            <li>
+                              <a href="#">Çok Satanlar</a>
+                            </li>
+                            <li>
+                              <a href="#">Yeni Eklenenler </a>
+                            </li>
+                         
+                        
+                          </ul>
+                        </div>
+                        <div class="megamenu-products">
+                          <h3 class="megamenu-products-title">
+                           İşlemler
+                          </h3>
+                          <ul class="megamenu-menu-list">
+                            <li>
+                              <a href="#">Kampanyalı Ürünler</a>
+                            </li>
+                            <li>
+                              <a href="#">Puan Kazan</a>
+                            </li>
+                            <li>
+                              <a href="#">İade İşlemleri</a>
+                            </li>
+                            <li>
+                              <a href="#">Önerileriniz</a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="megamenu-products">
+                          <h3 class="megamenu-products-title">
+                           Ödeme
+                          </h3>
+                          <ul class="megamenu-menu-list">
+                            <li>
+                              <a href="#">Kapıda Ödeme</a>
+                            </li>
+                            <li>
+                              <a href="#">İndirim Kartları</a>
+                            </li>
+                            <li>
+                              <a href="#">Kampanyalar</a>
+                            </li>
+                            <li>
+                              <a href="#">Kupon Kullan</a>
+                            </li>
+                            <li>
+                              <a href="#">Alışveriş Kartı</a>
+                            </li>
+                          
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="megamenu-single">
+                        <a href="#">
+                          <img src="./vinyl-record-player-record-retro-wallpaper-preview-1.jpg" alt="">
+                        </a>
+                        <h3 class="megamenu-single-title">ÜYE OLUN AYRICALIKLARDAN FAYDALANIN</h3>
+                     
+                        <a href="#" class="megamenu-single-button btn btn-sm">Alışverişe Başla</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+               
+         <li class="menu-list-item">
+                  <a href="./kategori.html" class="menu-link">
+                KATEGORİLER
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <i class="bi-x-circle" id="close-sidebar"></i>
+          </div>
+          <div class="header-right">
+            <div class="header-right-links">
+              <a href="./login.html" class="header-account">
+                <i class="bi bi-person"></i>
+              </a>
+              <button class="search-button">
+                <i class="bi bi-search"></i>
+              </button>
+              <a href="#">
+                <i class="bi bi-heart"></i>
+              </a>
+              <div class="header-cart">
+                <a href="#" class="header-cart-link">
+                  <i class="bi bi-bag"></i>
+                  <span class="header-cart-count">0</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--! header end  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--! categories start  -->
+  <section class="categories">
+    <div class="container">
+      <div class="section-title">
+        <h2>Tüm Kategoriler</h2>
+        <p>Koleksiyonlar Ve Daha Fazlası</p>
+      </div>
+      <ul class="category-list">
+        <li class="category-item">
+          <a href="#">
+            <img src="./giyim2.jpg" alt="" class="category-image">
+            <span class="category-title"> giyim </span>
+          </a>
+
+        </li>
+        <li class="category-item">
+          <a href="#">
+            <img src="./radio6.jpg" alt="" class="category-image">
+            <span class="category-title"> Radiolar </span>
+          </a>
+        </li>
+        <li class="category-item">
+          <a href="#">
+            <img src="./yesil-highland-ceket--4cb8-.jpeg" alt="" class="category-image">
+            <span class="category-title"> Çok Satanlar </span>
+          </a>
+        </li>
+        <li class="category-item">
+          <a href="#">
+            <img src="./96117142aa291f5030881bba3185b807.jpg" alt="" class="category-image">
+            <span class="category-title"> Aksesuar </span>
+          </a>
+        </li>
+        <li class="category-item">
+          <a href="#">
+            <img src="./pikap.jpg" alt="" class="category-image">
+            <span class="category-title">Pikaplar</span>
+          </a>
+        </li>
+        <li class="category-item">
+          <a href="#">
+            <img src="./tel1.jpg" alt="" class="category-image">
+            <span class="category-title">Koleksiyonlar </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+
+  
+
+
+  <div class="glide">
+    <div class="glide__track" data-glide-el="track">
+      <ul class="glide__slides">
+
+        <li class="glide__slide frame">
+          
+          <img src="./giyim1.jpg " width="100%" alt="">
+          <strong class="new-price">$108.00</strong>
+       
+       
+          <span class="product-discount">-17%-İNDİRİM</span>
+  
+        </li>
+        <li class="glide__slide frame">
+          <img src="./0e81b2d3b9cc15745a2304fc4147c573.jpg " width="100%" alt="">
+          <strong class="new-price">$108.00</strong>
+       
+       
+          <span class="product-discount">-17%-İNDİRİM</span>
+        </li>
+        <li class="glide__slide">
+          <img src="./gözlük.jpg " width="100%" alt="">
+          <strong class="new-price">$108.00</strong>
+       
+       
+          <span class="product-discount">-17%-İNDİRİM</span>
+        </li>
+        <li class="glide__slide">
+          <img src="./radio.jpg " width="100%" alt="">
+          <strong class="new-price">$108.00</strong>
+       
+       
+          <span class="product-discount">-17%-İNDİRİM</span>
+        </li>
+        <li class="glide__slide">
+          <img src="./giyim12.jpg " width="100%" alt="">
+          <strong class="new-price">$108.00</strong>
+       
+       
+          <span class="product-discount">-17%-İNDİRİM</span>
+
+        </li>
+        <li class="glide__slide">
+          <img src="./pikap2.jpg " width="100%" alt="">
+          <strong class="new-price">$108.00</strong>
+       
+       
+          <span class="product-discount">-17%-İNDİRİM</span>
+        </li>
+        <li class="glide__slide">
+          <img src="./gözlük2.jpg  " width="100%" alt="">
+          <strong class="new-price">$108.00</strong>
+       
+       
+          <span class="product-discount">-17%-İNDİRİM</span>
+        </li>
+        <li class="glide__slide">
+          <img src="./giyim10.jpg " width="100%" alt="">
+          <strong class="new-price">$108.00</strong>
+       
+       
+          <span class="product-discount">-17%-İNDİRİM</span>
+        </li>
+        <li class="glide__slide">
+          <img src="./radio5.jpg " width="100%" alt="">
+        
+            <strong class="new-price">$108.00</strong>
+       
+       
+          <span class="product-discount">-17%-İNDİRİM</span>
+      
+        </li>
+      </ul>
+    </div>
+
+    <div class="glide__arrows" data-glide-el="controls">
+      <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+      <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- !ürünler -->
+  <section class="products">
+    <div class="container">
+      <div class="section-title">
+
+      </div>
+      <div class="product-wrapper">
+        <ul class="product-list">
+          <li class="product-item">
+            <div class="product-image">
+              <a href="./urun.html">
+                <img src="./dsc02655-edit-edit.webp" alt="" class="img1">
+                <img src="./dsc02648-edit-edit.webp" alt="" class="img2">
+
+
+              </a>
+            </div>
+            <div class="product-info">
+              <a href="$" class="product-title">Vintage</a>
+              <ul class="product-star">
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+              </ul>
+              <div class="product-prices">
+                <strong class="new-price">$108.00</strong>
+                <span class="old-price">$165.00</span>
+              </div>
+              <span class="product-discount">-17%</span>
+              <div class="product-links">
+                <button>
+                  <i class="bi bi-basket-fill"></i>
+                </button>
+                <button>
+                  <i class="bi bi-heart-fill"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-eye-fill"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-share-fill"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="product-item">
+            <div class="product-image">
+              <a href="#">
+                <img src="./a813f7587e14fe9fa6a5d15c66dddb0a.jpg" alt="" class="img1">
+                <img src="./a813f7587e14fe9fa6a5d15c66dddb0a.jpg" alt="" class="img2">
+              </a>
+            </div>
+            <div class="product-info">
+              <a href="$" class="product-title">Vintage</a>
+              <ul class="product-star">
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+              </ul>
+              <div class="product-prices">
+                <strong class="new-price">$108.00</strong>
+                <span class="old-price">$165.00</span>
+              </div>
+              <span class="product-discount">-17%</span>
+              <div class="product-links">
+                <button>
+                  <i class="bi bi-basket-fill"></i>
+                </button>
+                <button>
+                  <i class="bi bi-heart-fill"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-eye-fill"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-share-fill"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="product-item">
+            <div class="product-image">
+              <a href="#">
+                <img src="./radio6.jpg " alt="" class="img1">
+                <img src="./radio6.jpg " alt="" class="img2">
+              </a>
+            </div>
+            <div class="product-info">
+              <a href="$" class="product-title">Vintage</a>
+              <ul class="product-star">
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+              </ul>
+              <div class="product-prices">
+                <strong class="new-price">$108.00</strong>
+                <span class="old-price">$165.00</span>
+              </div>
+              <span class="product-discount">-17%</span>
+              <div class="product-links">
+                <button>
+                  <i class="bi bi-basket-fill"></i>
+                </button>
+                <button>
+                  <i class="bi bi-heart-fill"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-eye-fill"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-share-fill"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="product-item">
+            <div class="product-image">
+              <a href="#">
+
+
+                <img src="./giyim4.jpg" alt="" class="img1">
+                <img src="./giyim4.jpg" alt="" class="img2">
+              
+              </a>
+            </div>
+            <div class="product-info">
+              <a href="$" class="product-title">Vintage</a>
+              <ul class="product-star">
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+              </ul>
+              <div class="product-prices">
+                <strong class="new-price">$108.00</strong>
+                <span class="old-price">$165.00</span>
+              </div>
+              <span class="product-discount">-17%</span>
+              <div class="product-links">
+                <button>
+                  <i class="bi bi-basket-fill"></i>
+                </button>
+                <button>
+                  <i class="bi bi-heart-fill"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-eye-fill"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-share-fill"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="product-item">
+            <div class="product-image">
+              <a href="#">
+                <img src="./daktilo.jpg " alt="">
+              </a>
+            </div>
+            <div class="product-info">
+              <a href="$" class="product-title">Vintage</a>
+              <ul class="product-star">
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+              </ul>
+              <div class="product-prices">
+                <strong class="new-price">$108.00</strong>
+                <span class="old-price">$165.00</span>
+              </div>
+              <span class="product-discount">-17%</span>
+              <div class="product-links">
+                <button>
+                  <i class="bi bi-basket-fill"></i>
+                </button>
+                <button>
+                  <i class="bi bi-heart-fill"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-eye-fill"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-share-fill"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="product-item">
+            <div class="product-image">
+              <a href="#">
+                <img src="./gözlük7.jpg" alt="" class="img1">
+                <img src="./gözlük7.jpg" alt="" class="img2">
+              </a>
+            </div>
+            <div class="product-info">
+              <a href="$" class="product-title">Vintage</a>
+              <ul class="product-star">
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+              </ul>
+              <div class="product-prices">
+                <strong class="new-price">$108.00</strong>
+                <span class="old-price">$165.00</span>
+              </div>
+              <span class="product-discount">-17%</span>
+              <div class="product-links">
+                <button>
+                  <i class="bi bi-basket-fill"></i>
+                </button>
+                <button>
+                  <i class="bi bi-heart-fill"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-eye-fill"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-share-fill"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="product-item">
+            <div class="product-image">
+              <a href="#">
+                <img src="./tel1.jpg" alt="" class="img1">
+                <img src="./tel1.jpg" alt="" class="img2">
+              </a>
+            </div>
+            <div class="product-info">
+              <a href="$" class="product-title">Vintage</a>
+              <ul class="product-star">
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+              </ul>
+              <div class="product-prices">
+                <strong class="new-price">$108.00</strong>
+                <span class="old-price">$165.00</span>
+              </div>
+              <span class="product-discount">-17%</span>
+              <div class="product-links">
+                <button>
+                  <i class="bi bi-basket-fill"></i>
+                </button>
+                <button>
+                  <i class="bi bi-heart-fill"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-eye-fill"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-share-fill"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="product-item">
+            <div class="product-image">
+              <a href="#">
+                <img src="./giyim8.jpg" alt="" class="img1">
+                <img src="./giyim8.jpg" alt="" class="img2">
+              </a>
+            </div>
+            <div class="product-info">
+              <a href="$" class="product-title">Vintage</a>
+              <ul class="product-star">
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+              </ul>
+              <div class="product-prices">
+                <strong class="new-price">$108.00</strong>
+                <span class="old-price">$165.00</span>
+              </div>
+              <span class="product-discount">-17%</span>
+              <div class="product-links">
+                <button>
+                  <i class="bi bi-basket-fill"></i>
+                </button>
+                <button>
+                  <i class="bi bi-heart-fill"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-eye-fill"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-share-fill"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="product-item">
+            <div class="product-image">
+              <a href="#">
+                <img src="./gözlük4.jpg" alt="" class="img1">
+                <img src="./gözlük4.jpg" alt="" class="img2">
+              </a>
+            </div>
+            <div class="product-info">
+              <a href="$" class="product-title">Analogue Resin Strap</a>
+              <ul class="product-star">
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+              </ul>
+              <div class="product-prices">
+                <strong class="new-price">$108.00</strong>
+                <span class="old-price">$165.00</span>
+              </div>
+              <span class="product-discount">-17%</span>
+              <div class="product-links">
+                <button>
+                  <i class="bi bi-basket-fill"></i>
+                </button>
+                <button>
+                  <i class="bi bi-heart-fill"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-eye-fill"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-share-fill"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="product-item">
+            <div class="product-image">
+              <a href="#">
+                <img src="./radio8.jpg" alt="" class="img1">
+                <img src="./radio8.jpg" alt="" class="img2">
+              </a>
+            </div>
+            <div class="product-info">
+              <a href="$" class="product-title">Vintage</a>
+              <ul class="product-star">
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+              </ul>
+              <div class="product-prices">
+                <strong class="new-price">$108.00</strong>
+                <span class="old-price">$165.00</span>
+              </div>
+              <span class="product-discount">-17%</span>
+              <div class="product-links">
+                <button>
+                  <i class="bi bi-basket-fill"></i>
+                </button>
+                <button>
+                  <i class="bi bi-heart-fill"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-eye-fill"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-share-fill"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="product-item">
+            <div class="product-image">
+              <a href="#">
+                <img src="./radio4.jpg" alt="" class="img1">
+                <img src="./radio4.jpg" alt="" class="img2">
+              </a>
+            </div>
+            <div class="product-info">
+              <a href="$" class="product-title">Vintage</a>
+              <ul class="product-star">
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+              </ul>
+              <div class="product-prices">
+                <strong class="new-price">$108.00</strong>
+                <span class="old-price">$165.00</span>
+              </div>
+              <span class="product-discount">-17%</span>
+              <div class="product-links">
+                <button>
+                  <i class="bi bi-basket-fill"></i>
+                </button>
+                <button>
+                  <i class="bi bi-heart-fill"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-eye-fill"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-share-fill"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="product-item">
+            <div class="product-image">
+              <a href="#">
+                <img src="./giyim5.jpg" alt="" class="img1">
+                <img src="./giyim5.jpg" alt="" class="img2">
+              </a>
+            </div>
+            <div class="product-info">
+              <a href="$" class="product-title">Vintage</a>
+              <ul class="product-star">
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+              </ul>
+              <div class="product-prices">
+                <strong class="new-price">$108.00</strong>
+                <span class="old-price">$165.00</span>
+              </div>
+              <span class="product-discount">-17%</span>
+              <div class="product-links">
+                <button>
+                  <i class="bi bi-basket-fill"></i>
+                </button>
+                <button>
+                  <i class="bi bi-heart-fill"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-eye-fill"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-share-fill"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="product-item">
+            <div class="product-image">
+              <a href="#">
+                <img src="./Boho-1970ler-Ihtisami-Retro-Modanin-Buyu-2681.jpg" alt="" class="img1">
+                <img src="./Boho-1970ler-Ihtisami-Retro-Modanin-Buyu-2681.jpg" alt="" class="img2">
+              </a>
+            </div>
+            <div class="product-info">
+              <a href="$" class="product-title">Vintage</a>
+              <ul class="product-star">
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+              </ul>
+              <div class="product-prices">
+                <strong class="new-price">$108.00</strong>
+                <span class="old-price">$165.00</span>
+              </div>
+              <span class="product-discount">-17%</span>
+              <div class="product-links">
+                <button>
+                  <i class="bi bi-basket-fill"></i>
+                </button>
+                <button>
+                  <i class="bi bi-heart-fill"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-eye-fill"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-share-fill"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="product-item">
+            <div class="product-image">
+              <a href="#">
+                <img src="./giyim10.jpg" alt="" class="img1">
+                <img src="./giyim10.jpg" alt="" class="img2">
+              </a>
+            </div>
+            <div class="product-info">
+              <a href="$" class="product-title">Vintage</a>
+              <ul class="product-star">
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+              </ul>
+              <div class="product-prices">
+                <strong class="new-price">$108.00</strong>
+                <span class="old-price">$165.00</span>
+              </div>
+              <span class="product-discount">-17%</span>
+              <div class="product-links">
+                <button>
+                  <i class="bi bi-basket-fill"></i>
+                </button>
+                <button>
+                  <i class="bi bi-heart-fill"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-eye-fill"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-share-fill"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="product-item">
+            <div class="product-image">
+              <a href="#">
+                <img src="./gözlük3.jpg" alt="" class="img1">
+                <img src="./gözlük3.jpg" alt="" class="img2">
+              </a>
+            </div>
+            <div class="product-info">
+              <a href="$" class="product-title">Vintage</a>
+              <ul class="product-star">
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+              </ul>
+              <div class="product-prices">
+                <strong class="new-price">$108.00</strong>
+                <span class="old-price">$165.00</span>
+              </div>
+              <span class="product-discount">-17%</span>
+              <div class="product-links">
+                <button>
+                  <i class="bi bi-basket-fill"></i>
+                </button>
+                <button>
+                  <i class="bi bi-heart-fill"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-eye-fill"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-share-fill"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="product-item">
+            <div class="product-image">
+              <a href="#">
+                <img src="./5.webp" alt="" class="img1">
+                <img src="./5.webp" alt="" class="img2">
+              </a>
+            </div>
+            <div class="product-info">
+              <a href="$" class="product-title">Vintage</a>
+              <ul class="product-star">
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+              </ul>
+              <div class="product-prices">
+                <strong class="new-price">$108.00</strong>
+                <span class="old-price">$165.00</span>
+              </div>
+              <span class="product-discount">-17%</span>
+              <div class="product-links">
+                <button>
+                  <i class="bi bi-basket-fill"></i>
+                </button>
+                <button>
+                  <i class="bi bi-heart-fill"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-eye-fill"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-share-fill"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="product-item">
+            <div class="product-image">
+              <a href="#">
+                <img src="./3.jpg" alt="" class="img1">
+                <img src="./3.jpg" alt="" class="img2">
+              </a>
+            </div>
+            <div class="product-info">
+              <a href="$" class="product-title">Vintage</a>
+              <ul class="product-star">
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+              </ul>
+              <div class="product-prices">
+                <strong class="new-price">$108.00</strong>
+                <span class="old-price">$165.00</span>
+              </div>
+              <span class="product-discount">-17%</span>
+              <div class="product-links">
+                <button>
+                  <i class="bi bi-basket-fill"></i>
+                </button>
+                <button>
+                  <i class="bi bi-heart-fill"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-eye-fill"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-share-fill"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="product-item">
+            <div class="product-image">
+              <a href="#">
+                <img src="./giyim6.jpg " alt="" class="img1">
+                <img src="./giyim6.jpg " alt="" class="img2">
+              </a>"
+            </div>
+            <div class="product-info">
+              <a href="$" class="product-title">Vintage</a>
+              <ul class="product-star">
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+              </ul>
+              <div class="product-prices">
+                <strong class="new-price">$108.00</strong>
+                <span class="old-price">$165.00</span>
+              </div>
+              <span class="product-discount">-17%</span>
+              <div class="product-links">
+                <button>
+                  <i class="bi bi-basket-fill"></i>
+                </button>
+                <button>
+                  <i class="bi bi-heart-fill"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-eye-fill"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-share-fill"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="product-item">
+            <div class="product-image">
+              <a href="#">
+                <img src="./giyim9.jpg" alt="" class="img1">
+                <img src="./giyim9.jpg" alt="" class="img2">
+              </a>
+            </div>
+            <div class="product-info">
+              <a href="$" class="product-title">Vintage</a>
+              <ul class="product-star">
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+              </ul>
+              <div class="product-prices">
+                <strong class="new-price">$108.00</strong>
+                <span class="old-price">$165.00</span>
+              </div>
+              <span class="product-discount">-17%</span>
+              <div class="product-links">
+                <button>
+                  <i class="bi bi-basket-fill"></i>
+                </button>
+                <button>
+                  <i class="bi bi-heart-fill"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-eye-fill"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-share-fill"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="product-item">
+            <div class="product-image">
+              <a href="#">
+                <img src="./gözlük.jpg" alt="" class="img1">
+                <img src="./gözlük.jpg" alt="" class="img2">
+              </a>
+            </div>
+            <div class="product-info">
+              <a href="$" class="product-title">Vintage</a>
+              <ul class="product-star">
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+              </ul>
+              <div class="product-prices">
+                <strong class="new-price">$108.00</strong>
+                <span class="old-price">$165.00</span>
+              </div>
+              <span class="product-discount">-17%</span>
+              <div class="product-links">
+                <button>
+                  <i class="bi bi-basket-fill"></i>
+                </button>
+                <button>
+                  <i class="bi bi-heart-fill"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-eye-fill"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-share-fill"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!--! products end  -->
+
+
+
+
+
+
+
+     <!--! footer start  -->
+     <footer class="footer">
+      <div class="subscribe-row">
+        <div class="container">
+          <div class="footer-row-wrapper">
+            <div class="footer-subscribe-wrapper">
+              <div class="footer-subscribe">
+                <div class="footer-subscribe-top">
+                  <h3 class="subscribe-title">
+                    Yeni ürünler, indirimler ve daha fazlası hakkında bilgi almak isterseniz e-mailinizi giriniz..</h3>
+
+                </div>
+                <div class="footer-subscribe-bottom">
+                  <form>
+                    <input type="text" placeholder="Emailinizi giriniz.">
+                    <button class="btn">Gönder</button>
+                  </form>
+                
+                </div>
+              </div>
+            </div>
+            <div class="footer-contact-wrapper">
+              <div class="footer-contact-top">
+                <h3 class="contact-title">
+                  Bize ulaşın <br>
+                  (+90) 123 000 00 00
+                </h3>
+                <p class="contact-desc"> 9:00 – 17:00 saatleri arasında ulaşabilirsiniz.</p>
+              </div>
+              <div class="footer-contact-bottom">
+                <div class="download-app">
+                  <a href="#">
+                    <img src="./microsoft.png" alt="">
+                  </a>
+                  <a href="#">
+                    <img src="./XUCupIzGmzB.png" alt="">
+                  </a>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    <div class="backgroınd-flower">  <img src="./footer-back.png" alt=""></div>
+      <div class="widgets-row">
+      
+        <div class="container">
+          <div class="footer-widgets">
+            <div class="brand-info">
+              <div class="footer-logo">
+                <a href="#" class="logo"></a>
+                <a href="./index.html" class="logo"><img src="./logo.jpg" alt=""></a>
+              </div>
+              <div class="footer-desc">
+                <p> Kişiye Özel Tasarım sitesi.</p>
+              </div>
+              <div class="footer-contact">
+             
+              </div>
+            </div>
+            <div class="widget-nav-menu">
+              <h4>Bilgi</h4>
+              <ul class="menu-list">
+                <li>
+                  <a href="#">Hakkımızda
+                  </a>
+                </li>
+                <li>
+                  <a href="#"> Gizlilik Politikası
+                  </a>
+                </li>
+                <li>
+                  <a href="#"> İade Politikası
+                  </a>
+                </li>
+                <li>
+                  <a href="#"> Nakliye Politikası
+                  </a>
+                </li>
+                
+              </ul>
+            </div>
+            <div class="widget-nav-menu">
+              <h4>Hesap</h4>
+              <ul class="menu-list">
+                <li>
+                  <a href="#">Bilgilendirmeler</a>
+                </li>
+                <li>
+                  <a href="#"></a>
+                </li>
+                <li>
+                  <a href="#">Şikayetler</a>
+                </li>
+                <li>
+                  <a href="#">Kargo</a>
+                </li>
+                <li>
+                  <a href="#">Ayarlar</a>
+                </li>
+              </ul>
+            </div>
+            <div class="widget-nav-menu">
+              <h4>İletişim</h4>
+              <ul class="menu-list">
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+                <li>
+                  <a href="#">Sorularınız</a>
+                </li>
+                <li>
+                  <a href="#">Basında Biz</a>
+                </li>
+                <li>
+                  <a href="#">Üyelik</a>
+                </li>
+                <li>
+                  <a href="#"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="widget-nav-menu">
+              <h4>Kategori</h4>
+              <ul class="menu-list">
+                <li>
+                  <a href="#">Kadın</a>
+                </li>
+                <li>
+                  <a href="#">Erkek</a>
+                </li>
+                <li>
+                  <a href="#">Çanta</a>
+                </li>
+                <li>
+                  <a href="#">Doğal ürünler</a>
+                </li>
+               
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </footer>
+    <!--! footer end  -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+
+  <script>
+    const config = {
+      type: 'carousel',
+      perView: 6,
+
+      autoplay: 1000,
+      startAt: 0,
+      hoverpause: true,
+      focusAt: 'center',
+      breakpoints: {
+        700: {
+          perView: 2,
+          gap: 10,
+        }
+      }
+
+    }
+    new Glide('.glide', config).mount()
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
+
+<script src="./kategori.js"></script>
+
+
+
+<script src="./glade.js"></script>
+
+
+</body>
+
+</html>

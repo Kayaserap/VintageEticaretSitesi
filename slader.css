@@ -1,0 +1,32 @@
+.toTop {
+    cursor: pointer;
+}
+
+
+.deneme1 {
+    width: 100%;
+    height: 100px;
+    overflow-x: hidden;
+}
+
+.deneme {
+    width: 100%;
+}
+
+.main {}
+
+.section {}
+
+.glide__slide {}
+
+.glide__slide img {
+    height: 400px;
+    object-fit: cover;
+
+}
+
+.glide {}
+
+.glide__track {}
+
+.glide__slides {}

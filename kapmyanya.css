@@ -1,0 +1,54 @@
+.campaigns .campaign-item {
+    padding: 50px 35px;
+    background-size: cover;
+    background-position: center;
+    flex: 10;
+    color:whitesmoke;
+
+ 
+  }
+  
+  .campaigns .campaign-item .campaign-title {
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 30px;
+  }
+  
+  .campaigns .campaign-item .campaign-desc {
+    margin: 40px 0;
+    font-size: 14px;
+  }
+  
+  .campaigns-wrapper:nth-child(1) .campaign-item:nth-child(1) {
+    background-image: url(./gözlük8.jpg);
+
+  }
+  
+  .campaigns-wrapper:nth-child(1) .campaign-item:nth-child(2) {
+    background-image: url(./giyim8.jpg);
+  }
+  
+  .campaigns-wrapper:nth-child(2) .campaign-item:nth-child(1) {
+    background-image: url(./radio6.jpg);
+    flex: 5;
+  }
+  
+  .campaigns-wrapper:nth-child(2) .campaign-item:nth-child(2) {
+    background-image: url(./giyim1.jpg);
+    flex: 3;
+  }
+  
+  @media (max-width: 768px) {
+    .campaigns .campaign-item {
+      width: 100%;
+      flex: unset !important;
+    }
+  }
+  /*! campaign start  */
+.campaigns .campaigns-wrapper {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  

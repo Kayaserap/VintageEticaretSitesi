@@ -1,0 +1,79 @@
+
+.giyim{
+ text-align: center;
+
+ 
+}
+.giyim img{
+    width: 450px;
+    height: 500px;
+}
+.giyim-mega{
+margin-top: 50px;
+margin-bottom: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 60px;
+overflow: hidden;
+}
+
+@media (max-width: 986px) {
+
+    .giyim-mega{
+
+       display: inline-block;
+       text-align: center;
+width: 100%;
+     
+       margin-top: 20px;
+    
+        }
+        .giyim{
+            display:inline-block;
+            text-align: center;
+        
+         
+           }
+        .giyim img{
+            width: 400px;
+            height: 430px;
+        }
+
+        .giyim h1{
+            display: block;
+      
+    text-align: center;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.giyim h1{
+    display: flex;
+font-size: 40px;
+  transform: perspective(500px) rotateX(40deg) ;
+        transition: all ease-in-out 0.35s;
+  
+        text-align: center;
+        color:linear-gradient(rgba(142, 136, 21, 0.99));
+     
+}
